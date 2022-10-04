@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Phillip Lord, c3401807, games.xml-->
+<!DOCTYPE products [
+<!--Defines parent elements-->
+<!ELEMENT products (rental*)>
+<!ELEMENT rental (title, url, image+, description, winePairing*, category, cost, tags*, parentalRating?, condition?, healthWarning?, powerUse, extras*, review*)>
+<!ELEMENT review (userName, reviewText, rating)>
+<!ELEMENT image (imgUrl, imgName)>
+<!ELEMENT extras (cartridgeName, cartridgeSize)>
+
+<!--Defines child elements of rental with PCDATA input-->
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT cost (#PCDATA)>
+<!ELEMENT tags (#PCDATA)>
+<!ELEMENT parentalRating (#PCDATA)>
+<!ELEMENT condition (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT healthWarning (#PCDATA)>
+<!ELEMENT winePairing (#PCDATA)>
+<!ELEMENT powerUse (#PCDATA)>
+
+<!--Defines child elements of image with PCDATA input-->
+<!ELEMENT imgUrl (#PCDATA)>
+<!ELEMENT imgName (#PCDATA)>
+
+<!--Defines child elements of extras with PCDATA input-->
+<!ELEMENT cartridgeName (#PCDATA)>
+<!ELEMENT cartridgeSize (#PCDATA)>
+
+<!--Defines child elements review with PCDATA input-->
+<!ELEMENT userName (#PCDATA)>
+<!ELEMENT reviewText (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+
+<!--Defines the attributes of the elements-->
+<!ATTLIST title modeOfDelivery (meatSpace|cyberSpace) "meatSpace">
+<!ATTLIST winePairing wineType (Red|White|LSD) "Red">
+
+<!--Defines the entitys-->
+<!ENTITY nj "NuraJak™">
+<!ENTITY warn "Warning, use of this product may cause:">
+
+
+]>
+<!--XML Tree Structure-->
+<products>
+	<rental>
+		<title modeOfDelivery="meatSpace">Operation Iraqi Freedom™</title>
+		<url>https://www.toptenz.net/top-10-american-war-crimes.php</url>
+		<image>
+			<imgUrl>./images/IraqiFreedom/iraqifreedom.png</imgUrl>
+			<imgName>Operation Iraqi Freedom</imgName>
+		</image>
+		<description>
+		Highscores:
+            
+            George Bush: 4,507*
+            Tony Blair: 179
+            John Howard: 4
+            
+            *This score is disputed following allegations that George Bush used a glitch involving the controlled demolition of the twin towers and then lying about weapons of mass destruction inorder to gain a head start in bringing freedom to the Iraqi people.
+		</description>
+		<winePairing winetype="Red">Shiraz</winePairing>
+		<category>Games</category>
+		<cost>1.32181411 ETH/mo</cost>
+		<tags>game</tags>
+		<tags>iraq</tags>
+		<tags>George Bush</tags>
+		<parentalRating>R</parentalRating>
+		<condition>Scuffed</condition>
+		<healthWarning>Warning, this product contains graphic depictions of freedom, democracy and liberty, use of this product may result in death.</healthWarning>
+		<powerUse>72 kw/h</powerUse>
+
+		<extras>
+			<cartridgeName>Adrenaline</cartridgeName>
+			<cartridgeSize>300μ</cartridgeSize>
+		</extras>
+		
+		<review>
+			<userName>BlokkHeadJ0e</userName>
+			<reviewText>My favourite part was when the main charachter turned to me, said my real life full name, address and medical history and the proceded to climb out of the screen into my living room and shoot me in the head in real life and now I'm actually dead and this post was generated from the &nj; crash report as my brain was splattered across the room.</reviewText>
+			<rating>*****</rating>
+		</review>
+
+	</rental>
+
+	<rental>
+		<title modeOfDelivery="meatSpace">I'm Angry About Politics on the World Wide Web™</title>
+		<url>https://twitter.com</url>
+		<image>
+			<imgUrl>./images/AngryOnline/AngryOnline.png</imgUrl>
+			<imgName>I'm Angry About Politics on the World Wide Web</imgName>
+		</image>
+		<description>This thought provoking masterpiece is inspired by myths and legends about a lost technology which allowed people to communicate, discuss ideas, and even offend other real life human beings using the power of the internet. Now as we all know this is fake news as the internet has always been a safe space for consumption of mind numbing digital heroin entertainment and interaction with other humans has never been possible, I mean can you imagine? What if an evil NaziRacist™ comic book supervillain (white male) got access to the internet and used it to hurt someone's feelings.
+		</description>
+		<winePairing winetype="White">Sparkling</winePairing>
+		<category>Games</category>
+		<cost>1.32181411 ETH/mo</cost>
+		<tags>games</tags>
+		<tags>internet</tags>
+		<tags>culture</tags>
+		<parentalRating>G</parentalRating>
+		<condition>Falling Apart</condition>
+		<healthWarning>&warn; Brain Damage, PTSD, Desire to commit a hate crime, Posting of cringe</healthWarning>
+		<powerUse>99 kw/h</powerUse>
+
+		<extras>
+			<cartridgeName>Dopamine</cartridgeName>
+			<cartridgeSize>300μ</cartridgeSize>
+		</extras>
+		
+		<review>
+			<userName>@birduser</userName>
+			<reviewText>You're a fucking white male!</reviewText>
+			<rating>*</rating>
+		</review>
+
+	</rental>
+
+	<rental>
+		<title modeOfDelivery="meatSpace">MKUltra Victim Simulator™</title>
+		<url>https://www.youtube.com/watch?v=KI0MfCOjbQ0</url>
+		<image>
+			<imgUrl>./images/MKUltra/MKUltraSim.png</imgUrl>
+			<imgName>MK Ultra Sim</imgName>
+		</image>
+		<description>
+		Packed full of exciting experiences:
+        	Shoot JFK
+            Shoot the guy who shot JFK
+            Take LSD
+            Start a cult
+            Run over CIA agents with your car, they glow in the dark!
+            I am in your walls
+            Commit suicide by shooting yourself twice in the back of the head!
+ 		</description>
+		<winePairing winetype="LSD">lysergic acid dieylanmide</winePairing>
+		<category>Games</category>
+		<cost>1.32181411 ETH/mo</cost>
+		<tags>games</tags>
+		<tags>cia</tags>
+		<parentalRating>R</parentalRating>
+		<condition>Clinging Onto Life</condition>
+		<healthWarning>&warn; Schizophrenia, Psychosis, Memory Loss</healthWarning>
+		<powerUse>45 kw/h</powerUse>
+
+		<extras>
+			<cartridgeName>Serotonin</cartridgeName>
+			<cartridgeSize>300μ</cartridgeSize>
+		</extras>
+		
+		<review>
+			<userName>NorthChinaProspect</userName>
+			<reviewText>BUGGY MESS!!! The game was working fine until I got the part where one of the charachters said "Why don't you pass the time playing a little solitare" and then my screen went blank and I couldn't control my charachter but I could hear NPCs screaming and guns firing. REFUND NOW!!!</reviewText>
+			<rating>*</rating>
+		</review>
+
+	</rental>
+</products>
