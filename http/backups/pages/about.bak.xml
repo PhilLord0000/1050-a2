@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Tue, 04 Oct 2022 16:53:30 +1100</pubDate><title><![CDATA[about]]></title><url><![CDATA[about]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[<p>&lt;!DOCTYPE html&gt;</p>
+
+<p>&lt;!--Phillip Lord c3401807 about.html--&gt;</p>
+
+<p>&lt;html lang ="en"&gt;</p>
+
+<p>&nbsp;</p>
+
+<p>&lt;!--The head tag stores information about the website--&gt;</p>
+
+<p>&lt;head&gt;</p>
+
+<p>&lt;meta charset="UTF-8"&gt;</p>
+
+<p>&lt;link rel="stylesheet" href="./style.css"&gt;</p>
+
+<p>&lt;title&gt;Rewind Rentals - Home of the NuraJak™&lt;/title&gt;</p>
+
+<p>&lt;link rel="icon" href="./images/Index/rrLogo.png" type="image/icon"&gt;</p>
+
+<p>&lt;/head&gt;</p>
+
+<p>&nbsp;</p>
+
+<p>&lt;!--The content of the website goes here--&gt;</p>
+
+<p>&lt;body&gt;</p>
+
+<p>&lt;!--Top bar--&gt;</p>
+
+<p>&lt;header&gt;</p>
+
+<p>&lt;h1&gt;&lt;a href="./index.html" id="title"&gt;Rewind Rentals™&lt;/a&gt;&lt;/h1&gt;</p>
+
+<p>&lt;!--Flex box nav bar--&gt;</p>
+
+<p>&lt;nav class="navContainer"&gt;</p>
+
+<p>&lt;div class="navItem"&gt;&lt;a href="./about.html"&gt;About&lt;/a&gt;&lt;/div&gt;</p>
+
+<p>&lt;div class="navItem" id="dropDown"&gt;Products</p>
+
+<p>&lt;div class="dropDownItem"&gt;</p>
+
+<p>&lt;div&gt;&lt;a href="./hardware.xml"&gt;Hardware&lt;/a&gt;&lt;/div&gt;</p>
+
+<p>&lt;div&gt;&lt;a href="./games.xml"&gt;Games&lt;/a&gt;&lt;/div&gt;</p>
+
+<p>&lt;/div&gt;</p>
+
+<p>&lt;/div&gt;</p>
+
+<p>&lt;div class="navItem" style="margin-left: auto;"&gt;&lt;a href="./contact.html"&gt;Contact&lt;/a&gt;&lt;/div&gt;</p>
+
+<p>&lt;div class="navItem" &gt;&lt;a href="./privacy.html"&gt;Privacy&lt;/a&gt;&lt;/div&gt;</p>
+
+<p>&lt;div class="navItem" &gt;&lt;a href="./terms.html"&gt;Terms&lt;/a&gt;&lt;/div&gt;</p>
+
+<p>&lt;/nav&gt;</p>
+
+<p>&lt;/header&gt;</p>
+
+<p>&lt;!--The core content goes here--&gt;</p>
+
+<p>&lt;main&gt;</p>
+
+<p>&lt;h2&gt;About Us&lt;/h2&gt;</p>
+
+<p>&lt;p&gt;Rewind Rentals was founded way back in 2022 by a young computer science student at the University of Newcastle, since then we've gone on to be at least the 10,983,728th most popular transhumanist rental website on the internet.&lt;/p&gt;</p>
+
+<p>&nbsp;</p>
+
+<p>&lt;h2&gt;About This Site&lt;/h2&gt;</p>
+
+<p>&lt;p&gt;This website was developed by Lord WebTek Inc. Pty Ltd.&lt;/p&gt;</p>
+
+<p>&lt;/main&gt;</p>
+
+<p>&nbsp;</p>
+
+<p>&lt;!--bottom of the page--&gt;</p>
+
+<p>&lt;div class="bottom"&gt;</p>
+
+<p>&lt;div class="logo"&gt;</p>
+
+<p>&lt;img src="./images/Index/rrLogo.png" alt="Rewind Rentals Logo" width="250" height="250"&gt;</p>
+
+<p>&lt;/div&gt;</p>
+
+<p>&nbsp;</p>
+
+<p>&lt;footer&gt;&lt;address&gt;Phil Lord - c3401807 - c3401807@uon.edu.au&lt;/address&gt; Copyright isn't real, excluding content which cannot be considered transformative, all content on this website is public domain. Do whatever you want with it, why don't your print it off using your Dads printer and staple it to electricity poles in your local area.&lt;/footer&gt;</p>
+
+<p>&lt;/div&gt;</p>
+
+<p>&lt;/body&gt;</p>
+
+<p>&lt;/html&gt;</p>
+
+<p><br />
+	<br />
+	<br />
+	&nbsp;</p>
+]]></content><private><![CDATA[]]></private><author><![CDATA[phil]]></author></item>

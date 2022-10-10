@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Tue, 04 Oct 2022 16:54:17 +1100</pubDate><title><![CDATA[contact]]></title><url><![CDATA[contact]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[
+<!--Phillip Lord c3401807 contact.html-->
+        <!--The core content goes here-->
+        <main>
+        <div style="background-color:#2b323f; margin-bottom: 1cm; padding: 2%;">
+        <h2>Send Us a Question</h2>
+            Your feedback is very important to us and we take every message very seriously.
+            <dl>
+                <dt>You can visit us in person at:</dt>
+                <dd><address>1000 Hatt Road, Hugh NT 0872</address></dd>
+                <dt>Call us on</dt>
+                <dd><a href="tel:1800020648">1800 020 648</a></dd>
+              </dl>
+            Or fill out our handy contact form and we'll get back to you in 6 to 9 months.
+        </div>
+        <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Max" required>
+            <br>
+
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Latifi" required>
+            <br>
+
+            <label for="mmname">Mothers Maiden Name:</label><br>
+            <input type="text" id="mmname" name="mmname" placeholder="We'll be good" required>
+            <br>
+
+            <label for="email">Electronic Mailing Address:</label><br>
+            <input type="email" id="email" name="email" placeholder="salvation@god.com" required>
+            <br>
+
+            <label for="subject">What is this all about?:</label><br>
+            <input type="text" id="subject" name="subject" placeholder="Tell us!?..." required>
+            <br>
+
+            <label for="message">Your Message to Your Corporate Overlords</label><br>
+            <textarea id="message" name="message" placeholder="Say something nice..." style="height:200px; width:300px;" required></textarea>
+            <br>
+
+
+
+            <label for="superhero">Select your favourite Marvel Cinematic Universe superhero</label><br>
+            <select name="superhero" id="superhero" required>
+                <option value="">choose size</option>
+                <option value="Frida Kahlo">Frida Kahlo</option>
+                <option value="polPot">Pol Pot</option>
+                <option value="Post Man Pat">Post Man Pat</option>
+                <option value="Joe Rogan">Joe Rogan</option>
+            </select>
+            <br>
+
+            <p>To let us know how urgent your message is, tell us if you own any Funko Pops™</p>
+                <input type="radio" id="yes" name="urgency" value="notUrgent" required>
+                <label for="yes">Yes, I love spending $30 on mindlessly consuming plastic</label><br>
+                <input type="radio" id="no" name="urgency" value="urgent" required>
+                <label for="no">No, I am an adult</label>
+            <br>
+                
+            
+            <button class="button" type="reset" value="reset">Reset</button>
+            <button class="button" type="submit" value="submit">Submit</button>
+
+        </form>
+        
+        </main>
+    </div>
+</body>
+
+
+
+]]></content><private><![CDATA[]]></private><author><![CDATA[phil]]></author></item>

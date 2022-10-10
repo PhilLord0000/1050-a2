@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channel><item><title><![CDATA[footer]]></title><slug>footer</slug><value><![CDATA[<div class="bottom">
+	<div class="logo"><img alt="Rewind Rentals Logo" height="250" src="./images/Index/rrLogo.png" width="250" /></div>
+
+	<footer>
+	<address>Phil Lord - c3401807 - c3401807@uon.edu.au</address>
+	Copyright isn't real, excluding content which cannot be considered transformative, all content on this website is public domain. Do whatever you want with it, why don't your print it off using your Dads printer and staple it to electricity poles in your local area.</footer>]]></value></item><item><title><![CDATA[navBar]]></title><slug>navbar</slug><value><![CDATA[<header>
+<h1><a href="./index.html" id="title">Rewind Rentals™</a></h1>
+
+<!--Flex box nav bar-->
+<nav class="navContainer">
+<div class="navItem"><a href="./about.html">About</a></div>
+
+<div class="navItem" id="dropDown">Products
+	<div class="dropDownList">
+		<div class="dropDownItem"><a href="./hardware.xml">Hardware</a></div>
+
+		<div class="dropDownItem"><a href="./games.xml">Games</a></div>
+	</div>
+</div>
+
+<div class="navItem" style="margin-left: auto;"><a href="./contact.html">Contact</a></div>
+
+<div class="navItem"><a href="./privacy.html">Privacy</a></div>
+
+<div class="navItem"><a href="./terms.html">Terms</a></div>
+</nav>
+</header>]]></value></item></channel>

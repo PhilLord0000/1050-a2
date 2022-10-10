@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Tue, 04 Oct 2022 16:53:56 +1100</pubDate><title><![CDATA[about]]></title><url><![CDATA[about]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[about]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[<!DOCTYPE html>
+<!--Phillip Lord c3401807 about.html-->
+<html lang ="en">
+    
+    <!--The head tag stores information about the website-->
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./style.css">
+        <title>Rewind Rentals - Home of the NuraJak™</title>
+        <link rel="icon" href="./images/Index/rrLogo.png" type="image/icon">
+    </head>
+    
+    <!--The content of the website goes here-->
+    <body>
+        <!--Top bar-->       
+        <header>        
+            <h1><a href="./index.html" id="title">Rewind Rentals™</a></h1>
+            <!--Flex box nav bar-->   
+            <nav class="navContainer">
+                    <div class="navItem"><a href="./about.html">About</a></div>
+                    <div class="navItem" id="dropDown">Products
+                        <div class="dropDownItem">
+                            <div><a href="./hardware.xml">Hardware</a></div>
+                            <div><a href="./games.xml">Games</a></div>
+                        </div>
+                    </div>    
+                    <div class="navItem" style="margin-left: auto;"><a href="./contact.html">Contact</a></div>
+                    <div class="navItem" ><a href="./privacy.html">Privacy</a></div>
+                    <div class="navItem" ><a href="./terms.html">Terms</a></div>
+            </nav>
+        </header>
+        <!--The core content goes here-->
+    <main>
+        <h2>About Us</h2>
+        <p>Rewind Rentals was founded way back in 2022 by a young computer science student at the University of Newcastle, since then we've gone on to be at least the 10,983,728th most popular transhumanist rental website on the internet.</p>
+
+        <h2>About This Site</h2>
+        <p>This website was developed by Lord WebTek Inc. Pty Ltd.</p>
+    </main>
+    
+    <!--bottom of the page-->
+    <div class="bottom">
+        <div class="logo">
+            <img src="./images/Index/rrLogo.png" alt="Rewind Rentals Logo" width="250" height="250">
+        </div>
+
+        <footer><address>Phil Lord - c3401807 - c3401807@uon.edu.au</address> Copyright isn't real, excluding content which cannot be considered transformative, all content on this website is public domain. Do whatever you want with it, why don't your print it off using your Dads printer and staple it to electricity poles in your local area.</footer>
+    </div>
+    </body>
+</html>
+
+
+
+]]></content><private><![CDATA[]]></private><author><![CDATA[phil]]></author></item>
