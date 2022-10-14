@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Phillip Lord, c3401807 hardware.xml-->
+<!DOCTYPE products [
+<!--Defines parent elements-->
+<!ELEMENT products (rental*)>
+<!ELEMENT rental (title, url, image+, description, winePairing*, category, cost, tags*, parentalRating?, condition?, healthWarning?, powerUse, extras*, review*)>
+<!ELEMENT review (userName, reviewText, rating)>
+<!ELEMENT image (imgUrl, imgName)>
+<!ELEMENT extras (cartridgeName, cartridgeSize)>
+
+<!--Defines child elements of rental with PCDATA input-->
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT cost (#PCDATA)>
+<!ELEMENT tags (#PCDATA)>
+<!ELEMENT parentalRating (#PCDATA)>
+<!ELEMENT condition (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT healthWarning (#PCDATA)>
+<!ELEMENT winePairing (#PCDATA)>
+<!ELEMENT powerUse (#PCDATA)>
+
+<!--Defines child elements of image with PCDATA input-->
+<!ELEMENT imgUrl (#PCDATA)>
+<!ELEMENT imgName (#PCDATA)>
+
+<!--Defines child elements of extras with PCDATA input-->
+<!ELEMENT cartridgeName (#PCDATA)>
+<!ELEMENT cartridgeSize (#PCDATA)>
+
+<!--Defines child elements review with PCDATA input-->
+<!ELEMENT userName (#PCDATA)>
+<!ELEMENT reviewText (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+
+<!--Defines the attributes of the elements-->
+<!ATTLIST title modeOfDelivery (meatSpace|cyberSpace) "meatSpace">
+<!ATTLIST winePairing wineType (Red|White|LSD) "Red">
+
+<!--Defines the entitys-->
+<!ENTITY nj "NuraJak™">
+<!ENTITY warn "Warning, use of this product may cause:">
+
+
+]>
+<!--XML Tree Structure-->
+<products>
+	<rental>
+		<title modeOfDelivery="meatSpace">The &nj; Virtual Reality Console</title>
+		<url>https://www.youtube.com/watch?v=vOTqtmv3Xdo</url>
+		<image>
+			<imgUrl>./images/Console/console.png</imgUrl>
+			<imgName>&nj; Virtual Reality Console</imgName>
+		</image>
+		<description>Our state of the art virtual reality simulation renderer is not only the most powerful console on the market but it's also stylish and easy to use. Measuring in at a mere 439 x 439 x 280 metres it's elegant pyramidal design fits nicely in the backyard of a typical suburban home.</description>
+		<winePairing></winePairing>
+		<category>Hardware</category>
+		<cost>72,221.436 ETH/mo</cost>
+		<tags>VR</tags>
+		<parentalRating>R</parentalRating>
+		<condition>Emaculate</condition>
+		<healthWarning>&warn; Trancendence, God-Complex, Golden Aura</healthWarning>
+		<powerUse>17933782 kw/h</powerUse>
+
+		<extras>
+			<cartridgeName>Serotonin</cartridgeName>
+			<cartridgeSize>300μ</cartridgeSize>
+		</extras>
+
+		<extras>
+			<cartridgeName>Dopamine</cartridgeName>
+			<cartridgeSize>300μ</cartridgeSize>
+		</extras>
+
+		<extras>
+			<cartridgeName>Adrenaline</cartridgeName>
+			<cartridgeSize>300μ</cartridgeSize>
+		</extras>
+		
+		<review>
+			<userName>TutRulez</userName>
+			<reviewText>𓆋𓅶𓂶 𓀬𓂀𓅀 𓋙𓆃</reviewText>
+			<rating>*****</rating>
+		</review>
+
+	</rental>
+
+	<rental>
+		<title modeOfDelivery="meatSpace">&nj; Virtual Reality HeadSet</title>
+		<url>yyyyyyy.info</url>
+		<image>
+			<imgUrl>./images/HeadSet/headset.png</imgUrl>
+			<imgName>&nj; Virtual Reality HeadSet</imgName>
+		</image>
+		<description>In days gone by neurotransmitters were produced entirely by the body but now with our revolutionary Neurotransmitter direct injection technology that sense of childlike joy and wonder can be recreated in your mid 30's even after you've fried your brain with screen and abandoned all forms of human social interaction. Our subscription rental service can now ship your emotions right to your door and pick up those old cartridges to be recycled </description>
+		<winePairing></winePairing>
+		<category>Hardware</category>
+		<cost>32181411 ETH/mo</cost>
+		<tags>VR</tags>
+		<parentalRating>R</parentalRating>
+		<condition>Out Standing</condition>
+		<healthWarning>&warn; Dementia, Psychosis,Paralysis</healthWarning>
+		<powerUse>350 kw/h</powerUse>
+
+		<extras>
+			<cartridgeName>Dopamine</cartridgeName>
+			<cartridgeSize>300μ</cartridgeSize>
+		</extras>
+		
+		<review>
+			<userName>Suburban Mom</userName>
+			<reviewText>My kiddos are the light of my life and they love playing with their &nj;, normally they're so loud and misbehaved but ever since they got the &nj; they've become little angels, they haven't taken their headsets off in weeks! More time for Mummy to have a glass of red!</reviewText>
+			<rating>*****</rating>
+		</review>
+	</rental>
+	
+	<rental>
+		<title modeOfDelivery="meatSpace">&nj; Neurotransmitter Cartridge</title>
+		<url>https://www.hp.com/au-en/shop/hp-inkntoner-family</url>
+		<image>
+			<imgUrl>./images/Cartridge/SerotoninCartridge.png</imgUrl>
+			<imgName>&nj; Serotonin Cartridge</imgName>
+		</image>
+		<description>In days gone by neurotransmitters were produced entirely by the body but now with our revolutionary Neurotransmitter direct injection technology that sense of childlike joy and wonder can be recreated in your mid 30's even after you've fried your brain with screen and abandoned all forms of human social interaction. Our subscription rental service can now ship your emotions right to your door and pick up those old cartridges to be recycled .</description>
+		<winePairing></winePairing>
+		<category>Hardware</category>
+		<cost>0.8720718 ETH/mo</cost>
+		<tags>Cartridge</tags>
+		<parentalRating>R</parentalRating>
+		<condition>Spiffing</condition>
+		<healthWarning>&warn; Gub-Gub, Bug-Man, Mush-Brain</healthWarning>
+		<powerUse>10 w/h</powerUse>
+
+		<extras>
+			<cartridgeName></cartridgeName>
+			<cartridgeSize></cartridgeSize>
+		</extras>
+		
+		<review>
+			<userName>VerySmart</userName>
+			<reviewText>Thank you &nj; for making my normal human funtion into a comcercial product, I am now 0.00843% more efficient at my job-job at MegaBiz industries.</reviewText>
+			<rating>*****</rating>
+		</review>
+	</rental>
+</products>

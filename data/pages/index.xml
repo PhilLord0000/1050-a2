@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Wed, 12 Oct 2022 02:11:36 +0000</pubDate><title><![CDATA[Rewind Rentals - Home]]></title><url><![CDATA[index]]></url><meta><![CDATA[getsimple, easy, content management system]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Home]]></menu><menuOrder><![CDATA[1]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[mytemplate.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[<main><!--Few intro paragraphs-->
+<h2>Why Choose Us?</h2>
+<span>Our story starts 10000 years ago, when man was a primitive beast, spearing his prey and brutally crushing the skull of his enemies. In these times man was free to live in accordance with his nature. Wouldn't it be good if we could return to these times? </span>
+
+<p>Well, too bad, your feeble soy-milk bones and glyphosate brain won't handle it. In current year your blood is full of plastic, your testosterone is lower than the average 70 year old from 50 years ago, and you've fried your dopamine receptors with low-effort high-reward instant gratification entertainment on the world wide web. But what if, through the power of Science™ we could recreate the feeling of being a real human person doing real actions in the real world?</p>
+
+<p>This is where rewind rentals comes in, we offer <strong>Hyper-Real, Max-Violence, Ultra-Sexual, 4kUltraHD60fps™</strong> content straight into your spinal cord.</p>
+<!--The welcome and most important paragraph-->
+
+<h2>How It Works?</h2>
+
+<p id="welcome">Working in partnership with <a href="https://www.newcastle.edu.au/research/facilities">The University of Newcastle</a> our patented NuraJak™ <abbr title="Direct Injection Virtual Reality">DIVR</abbr> technology we able to simulate real-space events entirely within the brain-space environment. Getting set up with the NuraJak™ is simple and can be completed in three easy steps:</p>
+<!--List the steps to set up-->
+
+<ol>
+	<li>The first step is the convenient, highly invasive, 9 hour surgery to implant the JakPort™ into your brainstem.</li>
+	<li>Secondly, insert your chosen Virtual Head Simulation cassette tape and neurotransmitter cartridges into the NuraJak™ console.</li>
+	<li>Finally, connect the NuraJak™ headset to your JakPort™ and you're ready to Jak™.</li>
+</ol>
+<!--Two lists of featured products, one for games one for hardware-->
+
+<div class="featured">
+	<h2>Featured Products</h2>
+	<!--Description of the category-->
+
+	<h3>Games</h3>
+
+	<p>Our selection of Virtual Head Simulation games developed in house for our very own NuraJak™ virtual reality video gaming system</p>
+	<!--Games list-->
+
+	<ul class="featured-list">
+		<li><!--each product is a flex box div and each attribute is a div inside that div-->
+			<div class="flex-item" id="iraqifreedom">
+				<div class="productImage"><img alt="Operation Iraqi Freedom" height="250" src="./images/IraqiFreedom/iraqifreedom.png" width="250" /></div>
+
+				<div class="productTitle">
+					<h3>Operation Iraqi Freedom™</h3>
+				</div>
+
+				<div class="productDescription">Highscores:
+					<ol>
+						<li>George Bush: 4,507*</li>
+						<li>Tony Blair: 179</li>
+						<li>John Howard: 4</li>
+					</ol>
+					*This score is disputed following allegations that George Bush used a glitch involving the controlled demolition of the twin towers and then lying about weapons of mass destruction inorder to gain a head start in bringing freedom to the Iraqi people.<br />
+					Wine Pairing: Dry Red.</div>
+
+				<div class="productPrice">1.32181411 ETH/mo</div>
+
+				<div class="productButton"><button class="button">RENT NOW</button></div>
+			</div>
+		</li>
+		<li>
+			<div class="flex-item" id="AngryOnline">
+				<div class="productImage"><img alt="I'm Angry About Politics on the World Wide Web" height="250" src="./images/AngryOnline/AngryOnline.png" width="250" /></div>
+
+				<div class="productTitle">
+					<h3>I'm Angry About Politics on the World Wide Web™</h3>
+				</div>
+
+				<div class="productDescription">
+					<p>This thought provoking masterpiece is inspired by myths and legends about a lost technology which allowed people to communicate, discuss ideas, and even offend other real life human beings using the power of the internet. Now as we all know this is fake news as the internet has always been a safe space for consumption of mind numbing digital heroin entertainment and interaction with other humans has never been possible, I mean can you imagine? What if an evil NaziRacist™ comic book supervillain (white male) got access to the internet and used it to hurt someone's feelings.<br />
+						Wine Pairing: Sparkling.</p>
+				</div>
+
+				<div class="productPrice">1.32181411 ETH/mo</div>
+
+				<div class="productButton"><button class="button">RENT NOW</button></div>
+			</div>
+		</li>
+		<li>
+			<div class="flex-item" id="MKUltra">
+				<div class="productImage"><img alt="MK Ultra Sim" height="250" src="./images/MKUltra/MKUltraSim.png" width="250" /></div>
+
+				<div class="productTitle">
+					<h3>MKUltra Victim Simulator™</h3>
+				</div>
+
+				<div class="productDescription">Packed full of exciting experiences:
+					<ul>
+						<li>Shoot JFK</li>
+						<li>Shoot the guy who shot JFK</li>
+						<li>Take LSD</li>
+						<li>Start a cult</li>
+						<li>Run over CIA agents with your car, they glow in the dark!</li>
+						<li>I am in your walls</li>
+						<li>Commit suicide by shooting yourself twice in the back of the head!</li>
+					</ul>
+					Wine Paring: Lysergic Acid Dieylanmide.</div>
+
+				<div class="productPrice">1.32181411 ETH/mo</div>
+
+				<div class="productButton"><button class="button">RENT NOW</button></div>
+			</div>
+		</li>
+	</ul>
+	<!--Description of the category-->
+
+	<h3>Hardware</h3>
+
+	<p>Welcome gamer, we know you like to game so we created the most powerful gaming hardware on the planet, you'll be gaming like you've never gamed before, you'll be the gaming God once you're done gaming on our gaming system.</p>
+	<!--Hardware list-->
+
+	<ul class="featured-list">
+		<li>
+			<div class="flex-item" id="console">
+				<div class="productImage"><img alt="NuraJak™ Virtual Reality Console" height="250" src="./images/Console/console.png" width="250" /></div>
+
+				<div class="productTitle">
+					<h3>The NuraJak™ Virtual Reality Console</h3>
+				</div>
+
+				<div class="productDescription">Our state of the art virtual reality simulation renderer is not only the most powerful console on the market but it's also stylish and easy to use. Measuring in at a mere 439 x 439 x 280 metres it's elegant pyramidal design fits nicely in the backyard of a typical suburban home.</div>
+
+				<div class="productPrice">72,221.436 ETH/mo</div>
+
+				<div class="productButton"><button class="button">RENT NOW</button></div>
+			</div>
+		</li>
+		<li>
+			<div class="flex-item" id="headset">
+				<div class="productImage"><img alt="NuraJak™ Virtual Reality HeadSet" height="250" src="./images/HeadSet/headset.png" width="250" /></div>
+
+				<div class="productTitle">
+					<h3>NuraJak™ Virtual Reality HeadSet</h3>
+				</div>
+
+				<div class="productDescription">
+					<p>Our NuraJak™ headset is the most advanced virtual meta world device on the planet, it's innovative direct neurotransmitter injection technology allows for the most advanced simulation of the real world space inside of the digital-mind space. After the quick and painless surgery to implant the JakPort™</p>
+				</div>
+
+				<div class="productPrice">1.32181411 ETH/mo</div>
+
+				<div class="productButton"><button class="button">RENT NOW</button></div>
+			</div>
+		</li>
+		<li>
+			<div class="flex-item" id="cartridge">
+				<div class="productImage"><img alt="NuraJak™ Neurotransmitter Cartridge" height="250" src="./images/Cartridge/SerotoninCartridge.png" width="250" /></div>
+
+				<div class="productTitle">
+					<h3>NuraJak™ Neurotransmitter Cartridge</h3>
+				</div>
+
+				<div class="productDescription">
+					<p>In days gone by neurotransmitters were produced entirely by the body but now with our revolutionary Neurotransmitter direct injection technology that sense of childlike joy and wonder can be recreated in your mid 30's even after you've fried your brain with screen and abandoned all forms of human social interaction. Our subscription rental service can now ship your emotions right to your door and pick up those old cartridges to be recycled</p>
+				</div>
+
+				<div class="productPrice">0.8720718 ETH/mo</div>
+
+				<div class="productButton"><button class="button">RENT NOW</button></div>
+			</div>
+		</li>
+	</ul>
+
+	<p>Check out our product pages for reviews and more information!</p>
+</div>
+</main>
+]]></content><private><![CDATA[]]></private><author><![CDATA[phil]]></author></item>
