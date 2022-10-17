@@ -13,24 +13,17 @@
 
 	<!-- Site Title -->
 	<title><?php get_page_clean_title(); ?> &lt; <?php get_site_name(); ?></title>
-	<?php //get_header(); ?>
+	<?php get_header(); ?>
 	<meta name="robots" content="index, follow" />
 	<meta charset="utf-8">
-	<link rel="icon" href="../../data/images/Index/rrLogo.png" type="image/icon">
+	<link href="./images/Index/rrLogo.png" rel="icon" type="image/icon" />
 	<link rel="stylesheet" type="text/css" href="<?php get_theme_url(); ?>/reset.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="<?php get_theme_url(); ?>/style.css" media="all" />
 
 </head>
 <body id="<?php get_page_slug(); ?>" >
-<?php //get_component('head');	?>
 <?php get_component('navBar');	?>
-<div>
-<?php echo $_GET['category']; ?>
-</div>
+<?php get_page_content(); ?>
 <?php get_component('footer');	?>
-	
-	<?php //get_footer(); ?>
-	
-</div><!-- end wrapper -->
 </body>
 </html>

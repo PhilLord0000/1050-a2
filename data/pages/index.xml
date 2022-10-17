@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Wed, 12 Oct 2022 02:11:36 +0000</pubDate><title><![CDATA[Rewind Rentals - Home]]></title><url><![CDATA[index]]></url><meta><![CDATA[getsimple, easy, content management system]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Home]]></menu><menuOrder><![CDATA[1]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[mytemplate.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[<main><!--Few intro paragraphs-->
+<item><pubDate>Mon, 17 Oct 2022 09:32:27 +0000</pubDate><title><![CDATA[Rewind Rentals - Home]]></title><url><![CDATA[index]]></url><meta><![CDATA[getsimple, easy, content management system]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Home]]></menu><menuOrder><![CDATA[1]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[<!--Phillip Lord c3401807 index.html-->
+<main><!--Few intro paragraphs-->
 <h2>Why Choose Us?</h2>
 <span>Our story starts 10000 years ago, when man was a primitive beast, spearing his prey and brutally crushing the skull of his enemies. In these times man was free to live in accordance with his nature. Wouldn't it be good if we could return to these times? </span>
 
@@ -158,4 +159,5 @@
 	<p>Check out our product pages for reviews and more information!</p>
 </div>
 </main>
+
 ]]></content><private><![CDATA[]]></private><author><![CDATA[phil]]></author></item>
